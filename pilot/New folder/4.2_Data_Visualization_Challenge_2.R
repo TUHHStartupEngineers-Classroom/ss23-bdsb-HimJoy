@@ -32,7 +32,7 @@ covid_data_tbl <- covid_data_tbl%>%
 covid_data_tbl <- covid_data_tbl %>%
   rename(region=countriesAndTerritories)
 
-#Grouping and calculating mrtality rate
+#Grouping and calculating mortality rate
 
 covid_data_tbl <- covid_data_tbl %>%
   group_by(region)%>%

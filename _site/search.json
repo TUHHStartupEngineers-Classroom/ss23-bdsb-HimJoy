@@ -16,9 +16,9 @@
   {
     "objectID": "content/01_journal/04_data_visualization.html",
     "href": "content/01_journal/04_data_visualization.html",
-    "title": "Data Visualization",
+    "title": "Data Visualization Challenge",
     "section": "",
-    "text": "Note\n\n\n\nYou can delete everything in here and start fresh."
+    "text": "Note\n\n\n\nthe solution code is saved on pilot/New folder in the Repository\nThis is .qmd file contains the Journal for the R code challange for the Data Visualization.\nTo learn more about the challange visit https://www.startupengineer.io/_repos/_transfer/data_science/05_dat_viz/#challenge-i-classfas-fa-laptop-codei-nbsp."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html",
@@ -243,5 +243,96 @@
     "title": "Data Wrangling Challenge",
     "section": "1.7 Writing Files",
     "text": "1.7 Writing Files\nTo save resulted file as Excel file,CSV file,RDS : write_xlsx() is used"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#load-libraries",
+    "href": "content/01_journal/04_data_visualization.html#load-libraries",
+    "title": "Data Visualization Challenge",
+    "section": "1.1 Load libraries",
+    "text": "1.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library dplyr is used to handle tabular data. Library ggplot2 is used in R to create data visualizations Library ggthemes is used to provide additional themes, scales, and geoms for the ggplot2 package. Library lubridate is used to process the dates in data file properly. Library data.table is used to handle large tabular data fast. Library glue is used for concatenate strings. Library forcats is used in R to provide a suite of useful tools that solve common problems with factors. Library scales is used in R to provide the internal scaling infrastructure used by ggplot2. Library ggrepel is used in R to provide geoms for ggplot2 to repel overlapping text labels."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#import-files",
+    "href": "content/01_journal/04_data_visualization.html#import-files",
+    "title": "Data Visualization Challenge",
+    "section": "1.2 Import Files",
+    "text": "1.2 Import Files\nTo import files read_csv() funtion used.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data table in https://covid.ourworldindata.org/data/owid-covid-data.csv"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#filter-the-data",
+    "href": "content/01_journal/04_data_visualization.html#filter-the-data",
+    "title": "Data Visualization Challenge",
+    "section": "1.3 Filter the data",
+    "text": "1.3 Filter the data\nFilter the data the data: + for locations: Germany, United States, France, Spain, United States. + until May 31, 2022"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#joining-data",
+    "href": "content/01_journal/04_data_visualization.html#joining-data",
+    "title": "Data Visualization Challenge",
+    "section": "1.4 Joining Data",
+    "text": "1.4 Joining Data\norderlines_tbl is left joined with bikes_tbl, on product id and bike id is equal and again it was left joined with bikeshops_tbl on customer id equal to bikeshop id. The results are put in bike_orderlines_joined_tbl."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#wrangling-data",
+    "href": "content/01_journal/04_data_visualization.html#wrangling-data",
+    "title": "Data Visualization Challenge",
+    "section": "1.4 Wrangling Data",
+    "text": "1.4 Wrangling Data\n\nModify Data\nDate is split into year, month and dates. then Month is transformed into month names. At last, year and month is combined into a single column month_year.\n\n\nGrouping and total cases calculation\nData is grouped according to location and month_year. Then total covid case is summerized using summarise(total_case = sum(total_cases)).\nNulls are transformed into 0 to calculate cumulative sum of total cases using cumulative_case=cumsum(total_case)."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#business-insights",
+    "href": "content/01_journal/04_data_visualization.html#business-insights",
+    "title": "Data Visualization Challenge",
+    "section": "1.6 Business Insights",
+    "text": "1.6 Business Insights\nNecessary column is selected for the insights, then grouped by state. Total price is calculated using summerize()& sum() function. Total Price data formatted into Euro.\n\nSales by state\nSales by state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by State\n\n\n\n\nSales by Year and state\nSales by year and state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by year and State"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#writing-files",
+    "href": "content/01_journal/04_data_visualization.html#writing-files",
+    "title": "Data Visualization Challenge",
+    "section": "1.7 Writing Files",
+    "text": "1.7 Writing Files\nTo save resulted file as Excel file,CSV file,RDS : write_xlsx() is used"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#data-visulization",
+    "href": "content/01_journal/04_data_visualization.html#data-visulization",
+    "title": "Data Visualization Challenge",
+    "section": "1.5 DATA visulization",
+    "text": "1.5 DATA visulization\nSales by state table is visulized using ggplot(), geom_line(), Formatting and Labs. Lastly, minimal theme is used.\n\n\n\nCumulative sum of total cases"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#load-libraries-1",
+    "href": "content/01_journal/04_data_visualization.html#load-libraries-1",
+    "title": "Data Visualization Challenge",
+    "section": "2.1 Load libraries",
+    "text": "2.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library ggplot2 is used in R to create data visualizations Library ggthemes is used to provide additional themes, scales, and geoms for the ggplot2 package. Library forcats is used in R to provide a suite of useful tools that solve common problems with factors. Library scales is used in R to provide the internal scaling infrastructure used by ggplot2. Library ggrepel is used in R to provide geoms for ggplot2 to repel overlapping text labels. Library maps is used in R to generate a world map with the Latitude and Longitude data."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#import-files-1",
+    "href": "content/01_journal/04_data_visualization.html#import-files-1",
+    "title": "Data Visualization Challenge",
+    "section": "2.2 Import Files",
+    "text": "2.2 Import Files\nTo import files read_csv() funtion used.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data table in https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#wrangling-data-1",
+    "href": "content/01_journal/04_data_visualization.html#wrangling-data-1",
+    "title": "Data Visualization Challenge",
+    "section": "2.3 Wrangling Data",
+    "text": "2.3 Wrangling Data\n\nFormate the data\nFormate the data: + for locations: UK, USA, Czech Republic, Bonaire, Democratic Republic of the Congo + rename(region=countriesAndTerritories) + replace all “_”\n\n\nGrouping and mortality rate calculation\nthen group by location and calculate mortality rate by the equation (total_deaths / population)*100"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#data-joining",
+    "href": "content/01_journal/04_data_visualization.html#data-joining",
+    "title": "Data Visualization Challenge",
+    "section": "2.4 Data joining",
+    "text": "2.4 Data joining\nleft join world and covid_data_tbl on region."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#data-visulization-1",
+    "href": "content/01_journal/04_data_visualization.html#data-visulization-1",
+    "title": "Data Visualization Challenge",
+    "section": "2.5 DATA visulization",
+    "text": "2.5 DATA visulization\nMortality Rate is visulized using ggplot(), geom_map(), expanding limits and Labs. Lastly, minimal theme is used.\n\n\n\nMortality rate Map"
   }
 ]
