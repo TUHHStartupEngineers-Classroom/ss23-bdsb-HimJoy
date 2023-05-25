@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Joschka Schwarz">
+<meta name="author" content="Himadri Joy Bepari">
 
-<title>MyLabJournal - Data Visualization</title>
+<title>MyLabJournal - Data Visualization Challenge</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -43,6 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -131,14 +134,35 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#challenge-1-solution" id="toc-challenge-1-solution" class="nav-link active" data-scroll-target="#challenge-1-solution"><span class="toc-section-number">1</span>  Challenge 1 Solution</a>
+  <ul class="collapse">
+  <li><a href="#load-libraries" id="toc-load-libraries" class="nav-link" data-scroll-target="#load-libraries"><span class="toc-section-number">1.1</span>  Load libraries</a></li>
+  <li><a href="#import-files" id="toc-import-files" class="nav-link" data-scroll-target="#import-files"><span class="toc-section-number">1.2</span>  Import Files</a></li>
+  <li><a href="#filter-the-data" id="toc-filter-the-data" class="nav-link" data-scroll-target="#filter-the-data"><span class="toc-section-number">1.3</span>  Filter the data</a></li>
+  <li><a href="#wrangling-data" id="toc-wrangling-data" class="nav-link" data-scroll-target="#wrangling-data"><span class="toc-section-number">1.4</span>  Wrangling Data</a></li>
+  <li><a href="#data-visulization" id="toc-data-visulization" class="nav-link" data-scroll-target="#data-visulization"><span class="toc-section-number">1.5</span>  DATA visulization</a></li>
+  </ul></li>
+  <li><a href="#challenge-2-solution" id="toc-challenge-2-solution" class="nav-link" data-scroll-target="#challenge-2-solution"><span class="toc-section-number">2</span>  Challenge 2 Solution</a>
+  <ul class="collapse">
+  <li><a href="#load-libraries-1" id="toc-load-libraries-1" class="nav-link" data-scroll-target="#load-libraries-1"><span class="toc-section-number">2.1</span>  Load libraries</a></li>
+  <li><a href="#import-files-1" id="toc-import-files-1" class="nav-link" data-scroll-target="#import-files-1"><span class="toc-section-number">2.2</span>  Import Files</a></li>
+  <li><a href="#wrangling-data-1" id="toc-wrangling-data-1" class="nav-link" data-scroll-target="#wrangling-data-1"><span class="toc-section-number">2.3</span>  Wrangling Data</a></li>
+  <li><a href="#data-joining" id="toc-data-joining" class="nav-link" data-scroll-target="#data-joining"><span class="toc-section-number">2.4</span>  Data joining</a></li>
+  <li><a href="#data-visulization-1" id="toc-data-visulization-1" class="nav-link" data-scroll-target="#data-visulization-1"><span class="toc-section-number">2.5</span>  DATA visulization</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Visualization</h1>
+<h1 class="title">Data Visualization Challenge</h1>
 </div>
 
 
@@ -148,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Joschka Schwarz </p>
+             <p>Himadri Joy Bepari </p>
           </div>
   </div>
     
@@ -169,11 +193,118 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can delete everything in here and start fresh.</p>
+<p>the solution code is saved on pilot/New folder in the Repository</p>
 </div>
+</div>
+<p>This is <code>.qmd</code> file contains the Journal for the R code challange for the Data Visualization.</p>
+<p>To learn more about the challange visit <a href="https://www.startupengineer.io/_repos/_transfer/data_science/05_dat_viz/#challenge-i-classfas-fa-laptop-codei-nbsp" class="uri">https://www.startupengineer.io/_repos/_transfer/data_science/05_dat_viz/#challenge-i-classfas-fa-laptop-codei-nbsp</a>.</p>
+<section id="challenge-1-solution" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Challenge 1 Solution</h1>
+<p>Here is repository link to see the original code: <a href="https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder" class="uri">https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder</a></p>
+<p><strong>name: 4.1_Data_Vis_Challenge_1.R</strong></p>
+<section id="load-libraries" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="load-libraries"><span class="header-section-number">1.1</span> Load libraries</h2>
+<p>Library Tidyverse is used for the shaping and Warngling data properly. Library dplyr is used to handle tabular data. Library ggplot2 is used in R to create data visualizations Library ggthemes is used to provide additional themes, scales, and geoms for the ggplot2 package. Library lubridate is used to process the dates in data file properly. Library data.table is used to handle large tabular data fast. Library glue is used for concatenate strings. Library forcats is used in R to provide a suite of useful tools that solve common problems with factors. Library scales is used in R to provide the internal scaling infrastructure used by ggplot2. Library ggrepel is used in R to provide geoms for ggplot2 to repel overlapping text labels.</p>
+</section>
+<section id="import-files" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="import-files"><span class="header-section-number">1.2</span> Import Files</h2>
+<p>To import files read_csv() funtion used.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>files are not uploaded to repository because of large size</p>
+</div>
+</div>
+<p>one can find the data table in <a href="https://covid.ourworldindata.org/data/owid-covid-data.csv" class="uri">https://covid.ourworldindata.org/data/owid-covid-data.csv</a></p>
+</section>
+<section id="filter-the-data" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="filter-the-data"><span class="header-section-number">1.3</span> Filter the data</h2>
+<p>Filter the data the data: + for locations: Germany, United States, France, Spain, United States. + until May 31, 2022</p>
+</section>
+<section id="wrangling-data" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="wrangling-data"><span class="header-section-number">1.4</span> Wrangling Data</h2>
+<section id="modify-data" class="level3">
+<h3 class="anchored" data-anchor-id="modify-data">Modify Data</h3>
+<p>Date is split into year, month and dates. then Month is transformed into month names. At last, year and month is combined into a single column month_year.</p>
+</section>
+<section id="grouping-and-total-cases-calculation" class="level3">
+<h3 class="anchored" data-anchor-id="grouping-and-total-cases-calculation">Grouping and total cases calculation</h3>
+<p>Data is grouped according to location and month_year. Then total covid case is summerized using summarise(total_case = sum(total_cases)).</p>
+<p>Nulls are transformed into 0 to calculate cumulative sum of total cases using cumulative_case=cumsum(total_case).</p>
+</section>
+</section>
+<section id="data-visulization" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="data-visulization"><span class="header-section-number">1.5</span> DATA visulization</h2>
+<p>Sales by state table is visulized using ggplot(), geom_line(), Formatting and Labs. Lastly, minimal theme is used.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../assets/img/Rplot_Data_vis_ch_01.jpeg" class="lightbox" title="Cumulative sum of total cases" data-gallery="quarto-lightbox-gallery-1"><img src="../../assets/img/Rplot_Data_vis_ch_01.jpeg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Cumulative sum of total cases</figcaption><p></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="challenge-2-solution" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Challenge 2 Solution</h1>
+<p>Here is repository link to see the original code: <a href="https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder" class="uri">https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder</a></p>
+<p><strong>name: 4.2_Data_Visualization_Challenge_2.R</strong></p>
+<section id="load-libraries-1" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="load-libraries-1"><span class="header-section-number">2.1</span> Load libraries</h2>
+<p>Library Tidyverse is used for the shaping and Warngling data properly. Library ggplot2 is used in R to create data visualizations Library ggthemes is used to provide additional themes, scales, and geoms for the ggplot2 package. Library forcats is used in R to provide a suite of useful tools that solve common problems with factors. Library scales is used in R to provide the internal scaling infrastructure used by ggplot2. Library ggrepel is used in R to provide geoms for ggplot2 to repel overlapping text labels. Library maps is used in R to generate a world map with the Latitude and Longitude data.</p>
+</section>
+<section id="import-files-1" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="import-files-1"><span class="header-section-number">2.2</span> Import Files</h2>
+<p>To import files read_csv() funtion used.</p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>files are not uploaded to repository because of large size</p>
+</div>
+</div>
+<p>one can find the data table in <a href="https://opendata.ecdc.europa.eu/covid19/casedistribution/csv" class="uri">https://opendata.ecdc.europa.eu/covid19/casedistribution/csv</a></p>
+</section>
+<section id="wrangling-data-1" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="wrangling-data-1"><span class="header-section-number">2.3</span> Wrangling Data</h2>
+<section id="formate-the-data" class="level3">
+<h3 class="anchored" data-anchor-id="formate-the-data">Formate the data</h3>
+<p>Formate the data: + for locations: UK, USA, Czech Republic, Bonaire, Democratic Republic of the Congo + rename(region=countriesAndTerritories) + replace all “_”</p>
+</section>
+<section id="grouping-and-mortality-rate-calculation" class="level3">
+<h3 class="anchored" data-anchor-id="grouping-and-mortality-rate-calculation">Grouping and mortality rate calculation</h3>
+<p>then group by location and calculate mortality rate by the equation (total_deaths / population)*100</p>
+</section>
+</section>
+<section id="data-joining" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="data-joining"><span class="header-section-number">2.4</span> Data joining</h2>
+<p>left join world and covid_data_tbl on region.</p>
+</section>
+<section id="data-visulization-1" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="data-visulization-1"><span class="header-section-number">2.5</span> DATA visulization</h2>
+<p>Mortality Rate is visulized using ggplot(), geom_map(), expanding limits and Labs. Lastly, minimal theme is used.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="../../assets/img/Rplot Data Vis Ch_02.jpeg" class="lightbox" title="Mortality rate Map" data-gallery="quarto-lightbox-gallery-2"><img src="../../assets/img/Rplot Data Vis Ch_02.jpeg" class="img-fluid figure-img"></a></p>
+<p></p><figcaption class="figure-caption">Mortality rate Map</figcaption><p></p>
+</figure>
 </div>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -425,6 +556,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":true,"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom"});</script>
 
 
 
