@@ -53,14 +53,14 @@
     "href": "index.html",
     "title": "My Lab Journal",
     "section": "",
-    "text": "This is a template example for lab journaling. Students in the data science courses at the Institute of Entrepreneurship will use this template to learn R for business analytics. Students can replace this text as they wish. I wish I wish!"
+    "text": "The owner of the lab journal is me, Himadri Joy Bepari, student of Microelectronics and Microsytems at the TUHH."
   },
   {
     "objectID": "index.html#how-to-use",
     "href": "index.html#how-to-use",
     "title": "My Lab Journal",
     "section": "How to use",
-    "text": "How to use\n\nAccept the assignment and get your own github repo.\nBlog/journal what you are doing in R, by editing the .qmd files.\nSee the links page for lots of helpful links on learning R.\nChange everything to make it your own.\nMake sure to render you website everytime before you want to upload changes"
+    "text": "How to use\n\nThis the homepage of the journal.\nOn the top left corner in the Journal Menu dropdown, one can find the journal for each Challenges.\nGithub repository: https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main.\nSolutions in Github: https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder.\nData files are not uploaded in Github due to large size."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#load-libraries",
