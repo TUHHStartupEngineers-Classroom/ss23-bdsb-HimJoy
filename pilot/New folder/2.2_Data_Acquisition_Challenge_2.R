@@ -9,8 +9,6 @@ library(jsonlite)  # converts JSON files to R objects
 library(glue)      # concatenate strings
 library(stringi)   # character string/text processing
 
-# main-navigation-category-with-tiles__link 
-# main-navigation-category-with-tiles__link 
 
 # 2.0 DATA IMPORT ----
 

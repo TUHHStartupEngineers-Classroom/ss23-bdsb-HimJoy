@@ -7,6 +7,10 @@ library(tidyverse)
 
 library(readxl)
 
+library("writexl")
+
+library(lubridate)
+
 
 # 2.0 Importing Files ----
 
@@ -62,7 +66,6 @@ bike_orderlines_wrangled_tbl <- bike_orderlines_joined_tbl %>%
 # 6.0 Business Insights ----
 # 6.1 Sales by Year ----
 
-library(lubridate)
 
 # Step 1 - Manipulate
 
@@ -167,7 +170,6 @@ sales_by_year_state_1_tbl %>%
 
 # 7.1 Excel ----
 
-library("writexl")
 
 bike_orderlines_wrangled_tbl %>%
   write_xlsx("00_data/01_bike_sales/02_wragled_data_tidy_ch/bike_orderlines.xlsx")
