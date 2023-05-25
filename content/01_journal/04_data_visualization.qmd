@@ -1,8 +1,126 @@
 ---
-title: "Data Visualization"
-author: "Joschka Schwarz"
+title: "Data Visualization Challenge"
+author: "Himadri Joy Bepari"
 ---
 
 ::: callout-note
-You can delete everything in here and start fresh.
+the solution code is saved on pilot/New folder in the Repository
 :::
+
+This is `.qmd` file contains the Journal for the R code challange for the Data Visualization.
+
+To learn more about the challange visit <https://www.startupengineer.io/_repos/_transfer/data_science/05_dat_viz/#challenge-i-classfas-fa-laptop-codei-nbsp>.
+
+
+# Challenge 1  Solution
+
+Here is repository link to see the original code: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder> 
+
+**name: 4.1_Data_Vis_Challenge_1.R**
+
+## Load libraries
+
+Library Tidyverse is used for the shaping and Warngling data properly.
+Library dplyr is used to handle tabular data.
+Library ggplot2 is used in R to create data visualizations
+Library ggthemes is used to provide additional themes, scales, and geoms for the ggplot2 package.
+Library lubridate is used to process the dates in data file properly.
+Library data.table is used to handle large tabular data fast.
+Library glue is used for concatenate strings.
+Library forcats is used in R to provide a suite of useful tools that solve common problems with factors.
+Library scales is used in R to provide the internal scaling infrastructure used by ggplot2.
+Library ggrepel is used in R to provide geoms for ggplot2 to repel overlapping text labels.
+
+
+## Import Files 
+
+To import files read_csv() funtion used.
+
+::: callout-note
+files are not uploaded to repository because of large size
+:::
+
+one can find the data table in <https://covid.ourworldindata.org/data/owid-covid-data.csv>
+
+## Filter the data
+
+Filter the data the data: 
+  + for locations: Germany, United States, France, Spain, United States.
+  + until May 31, 2022
+
+
+## Wrangling Data
+
+### Modify Data
+
+Date is split into year, month and dates. then Month is transformed into month names.
+At last, year and month is combined into a single column month_year.
+
+### Grouping and total cases calculation
+
+Data is grouped according to location and  month_year. Then total covid case is summerized using  summarise(total_case = sum(total_cases)).
+
+Nulls are transformed into 0 to calculate cumulative sum of total cases using cumulative_case=cumsum(total_case).
+
+
+## DATA visulization
+
+Sales by state table is visulized using ggplot(), geom_line(), Formatting and Labs.
+Lastly, minimal theme is used.
+
+![Cumulative sum of total cases](../../assets/img/Rplot_Data_vis_ch_01.jpeg)
+
+# Challenge 2  Solution
+
+Here is repository link to see the original code: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder> 
+
+**name: 4.2_Data_Visualization_Challenge_2.R**
+
+## Load libraries
+
+Library Tidyverse is used for the shaping and Warngling data properly.
+Library ggplot2 is used in R to create data visualizations
+Library ggthemes is used to provide additional themes, scales, and geoms for the ggplot2 package.
+Library forcats is used in R to provide a suite of useful tools that solve common problems with factors.
+Library scales is used in R to provide the internal scaling infrastructure used by ggplot2.
+Library ggrepel is used in R to provide geoms for ggplot2 to repel overlapping text labels.
+Library maps is used in R to generate a world map with the Latitude and Longitude data. 
+
+
+## Import Files 
+
+To import files read_csv() funtion used.
+
+::: callout-note
+files are not uploaded to repository because of large size
+:::
+
+one can find the data table in <https://opendata.ecdc.europa.eu/covid19/casedistribution/csv>
+
+
+## Wrangling Data
+
+### Formate the data
+
+Formate the data: 
+  + for locations: UK, USA, Czech Republic, Bonaire, Democratic Republic of the Congo
+  + rename(region=countriesAndTerritories)
+  + replace all  "_"
+  
+
+
+### Grouping and mortality rate calculation
+
+then group by location and calculate mortality rate by the equation (total_deaths / population)*100
+
+## Data joining 
+
+left join world and covid_data_tbl on region. 
+
+
+## DATA visulization
+
+Mortality Rate is visulized using ggplot(), geom_map(), expanding limits and Labs.
+Lastly, minimal theme is used.
+
+![Mortality rate Map](../../assets/img/Rplot Data Vis Ch_02.jpeg)

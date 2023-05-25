@@ -1,8 +1,137 @@
 ---
-title: "Data Acquisition"
-author: "Joschka Schwarz"
+title: "Data Acquisition Challenge"
+author: "Himadri Joy Bepari"
 ---
 
 ::: callout-note
-You can delete everything in here and start fresh.
+the solution code is saved on pilot/New folder in the Repository
 :::
+
+This is `.qmd` file contains the Journal for the R code challange for the Data Acquisition.
+
+To learn more about the challange visit <https://www.startupengineer.io/_repos/_transfer/data_science/03_dat_acq/#challenge-i-classfas-fa-laptop-codei>.
+
+
+# Challenge 1 Solution
+
+Here is repository link to see the original code: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder> 
+
+**name: 2.1_Data_Acquisition_Challenge_1.R**
+
+## Load libraries
+
+Library Tidyverse is used for the shaping and Warngling data properly.
+
+
+## Import Files 
+
+API used for the Challenge: <https://api.openweathermap.org/data/2.5/onecall?lat=53.5511&lon=9.9937&appid=d93321800837c9ff4a16acd678b13513>
+
+To import files a funtion function(weatherUrl) created and feed to sw_api.
+To read the website httr::GET(weatherUrl) used.
+To automatically throw an error if a request did not succeed stop_for_status(resp) used
+
+::: callout-note
+files are not uploaded to repository because of large size.
+:::
+
+
+## Examine the data
+
+mentioned resp table to see the data.
+
+
+## Wrangling Data
+
+To Convert to or from (Bit/Packed) Raw Vectors, function rawToChar(resp$content) is used.
+Content of the table resp is then transformed from JSON file into more readable table format.
+
+# Challenge 1 Solution
+
+Here is repository link to see the original code: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder> 
+
+**name: 2.1_Data_Acquisition_Challenge_1.R**
+
+## Load libraries
+
+Library Tidyverse is used for the shaping and Warngling data properly.
+
+
+## Import Files 
+
+API used for the Challenge: <https://api.openweathermap.org/data/2.5/onecall?lat=53.5511&lon=9.9937&appid=d93321800837c9ff4a16acd678b13513>
+
+To import files a funtion function(weatherUrl) created and feed to sw_api.
+To read the website httr::GET(weatherUrl) used.
+To automatically throw an error if a request did not succeed stop_for_status(resp) used
+
+::: callout-note
+files are not uploaded to repository because of large size.
+:::
+
+
+## Examine the data
+
+mentioned resp table to see the data.
+
+
+## Wrangling Data
+
+To Convert to or from (Bit/Packed) Raw Vectors, function rawToChar(resp$content) is used.
+Content of the table resp is then transformed from JSON file into more readable table format.
+
+# Challenge 2 Solution
+
+Here is repository link to see the original code: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder> 
+
+**name: 2.2_Data_Acquisition_Challenge_2.R**
+
+## Load libraries
+
+Library Tidyverse is used for the shaping and Warngling data properly.
+Library rvest is used for HTML Hacking & Web Scraping.
+Library xopen is used for Quickly opening URLs.
+Library jsonlite is used for converts JSON files to R objects.
+Library glue is used for concatenate strings.
+Library stringi is used for character string/text processing
+
+
+## Import Files 
+
+
+### API
+
+API used for the Challenge: <https://www.radon-bikes.de/>
+
+### Web scrape the ids for the families
+To read in the HTML for the entire webpage a funtion read_html(url_home) used.
+Then it is necessary to Web scrape the ids for the families.
+To get the nodes for the families html_nodes(css = ".megamenu__item > a") used.
+To extract the information of the id attribute html_attr('href') used.
+To Convert vector to tibble enframe(name = "position", value = "cat_subcat_url") is used.
+Then it needed to add the domain, because we will get only the subdirectories.
+
+### Model Price
+
+For loops ran to get full url link for each bike catagory, then Model price acquired.
+
+### Model Names
+
+another For loops ran to get full url link for each bike catagory, then Model names acquired.
+
+::: callout-note
+files are not uploaded to repository because of large size.
+:::
+
+
+## Examine the data
+
+mentioned final_model_names, final_price table to see the data.
+
+
+## Wrangling Data
+
+Left joined final_model_names, final_price.
+Then Renamed and formatted following tables for better readability.
+
+

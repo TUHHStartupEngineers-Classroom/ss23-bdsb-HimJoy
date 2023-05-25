@@ -1,21 +1,21 @@
 ---
 title: "My Lab Journal"
 subtitle: "Business Data Science Basics"
-author: "Joschka Schwarz"
+author: "Himadri Joy Bepari  (MN: 54873)"
 ---
 
 ![](assets/logo/TIE_logo.svg){width=80% fig-align="center"}
 
-This is a template example for lab journaling. Students in the data science courses at the Institute of Entrepreneurship will use this template to learn R for business analytics. Students can replace this text as they wish.
+The owner of the lab journal is me, Himadri Joy Bepari, student of Microelectronics and Microsytems at the TUHH.
 
 ## How to use
 
-1. Accept the assignment and get your own github repo.
+1. This the homepage of the journal.
 
-2. Blog/journal what you are doing in R, by editing the `.qmd` files. 
+2. On the top left corner in the Journal Menu dropdown, one can find the journal for each Challenges. 
 
-3. See the links page for lots of helpful links on learning R.
+3. Github repository: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main>.
 
-4. Change everything to make it your own.
+4. Solutions in Github: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder>.
 
-5. Make sure to render you website everytime before you want to upload changes
+5. Data files are not uploaded in Github due to large size.

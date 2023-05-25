@@ -9,37 +9,37 @@
   {
     "objectID": "content/01_journal/03_data_wrangling.html",
     "href": "content/01_journal/03_data_wrangling.html",
-    "title": "Data Wrangling",
+    "title": "Data Wrangling Challenge",
     "section": "",
-    "text": "Note\n\n\n\nYou can delete everything in here and start fresh."
+    "text": "Note\n\n\n\nthe solution code is saved on pilot/New folder in the Repository\nThis is .qmd file contains the Journal for the R code challange for the Tidyverse\nTo learn more about the challange visit https://www.startupengineer.io/_repos/_transfer/data_science/04_dat_wra/#challenge-i-classfas-fa-laptop-codei"
   },
   {
     "objectID": "content/01_journal/04_data_visualization.html",
     "href": "content/01_journal/04_data_visualization.html",
-    "title": "Data Visualization",
+    "title": "Data Visualization Challenge",
     "section": "",
-    "text": "Note\n\n\n\nYou can delete everything in here and start fresh."
+    "text": "Note\n\n\n\nthe solution code is saved on pilot/New folder in the Repository\nThis is .qmd file contains the Journal for the R code challange for the Data Visualization.\nTo learn more about the challange visit https://www.startupengineer.io/_repos/_transfer/data_science/05_dat_viz/#challenge-i-classfas-fa-laptop-codei-nbsp."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html",
     "href": "content/01_journal/01_tidyverse.html",
-    "title": "Tidyverse",
+    "title": "Tidyverse Challenge",
     "section": "",
-    "text": "Note\n\n\n\nYou can delete everything in here and start fresh.\nThis is a .qmd file. It is plain text with special features. Any time you write just like this, it will be compiled to normal text in the website. If you put a # in front of your text, it will create a top level-header.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Note\n\n\n\nthe solution code is saved on pilot/New folder in the Repository\nThis is .qmd file contains the Journal for the R code challange for the Tidyverse\nTo learn more about the challange visit https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#challenge-i-classfas-fa-laptop-codei-nbsp."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#header-2",
     "href": "content/01_journal/01_tidyverse.html#header-2",
-    "title": "Tidyverse",
+    "title": "Tidyverse Challange",
     "section": "\n2.1 Header 2",
     "text": "2.1 Header 2\nHeader 3\nHeader 4\nHeader 5\nHeader 6"
   },
   {
     "objectID": "content/01_journal/02_data_acquisition.html",
     "href": "content/01_journal/02_data_acquisition.html",
-    "title": "Data Acquisition",
+    "title": "Data Acquisition Challenge",
     "section": "",
-    "text": "Note\n\n\n\nYou can delete everything in here and start fresh."
+    "text": "Note\n\n\n\nthe solution code is saved on pilot/New folder in the Repository\nThis is .qmd file contains the Journal for the R code challange for the Data Acquisition.\nTo learn more about the challange visit https://www.startupengineer.io/_repos/_transfer/data_science/03_dat_acq/#challenge-i-classfas-fa-laptop-codei."
   },
   {
     "objectID": "content/02_notes/05_class_notes.html",
@@ -53,13 +53,286 @@
     "href": "index.html",
     "title": "My Lab Journal",
     "section": "",
-    "text": "This is a template example for lab journaling. Students in the data science courses at the Institute of Entrepreneurship will use this template to learn R for business analytics. Students can replace this text as they wish."
+    "text": "The owner of the lab journal is me, Himadri Joy Bepari, student of Microelectronics and Microsytems at the TUHH."
   },
   {
     "objectID": "index.html#how-to-use",
     "href": "index.html#how-to-use",
     "title": "My Lab Journal",
     "section": "How to use",
-    "text": "How to use\n\nAccept the assignment and get your own github repo.\nBlog/journal what you are doing in R, by editing the .qmd files.\nSee the links page for lots of helpful links on learning R.\nChange everything to make it your own.\nMake sure to render you website everytime before you want to upload changes"
+    "text": "How to use\n\nThis the homepage of the journal.\nOn the top left corner in the Journal Menu dropdown, one can find the journal for each Challenges.\nGithub repository: https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main.\nSolutions in Github: https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder.\nData files are not uploaded in Github due to large size."
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#load-libraries",
+    "href": "content/01_journal/01_tidyverse.html#load-libraries",
+    "title": "Tidyverse Challenge",
+    "section": "1.1 Load libraries",
+    "text": "1.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library readxl is used to read the excel file. Library writexl is used to write the results in a excel file. Library lubridate is used to process the dates in data file properly."
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#import-files",
+    "href": "content/01_journal/01_tidyverse.html#import-files",
+    "title": "Tidyverse Challenge",
+    "section": "1.2 Import Files",
+    "text": "1.2 Import Files\nTo import files read_excel() funtion used.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data table in https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#business-case-i-classfas-fa-user-tiei-nbsp"
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#examine-the-data",
+    "href": "content/01_journal/01_tidyverse.html#examine-the-data",
+    "title": "Tidyverse Challenge",
+    "section": "1.3 Examine the data",
+    "text": "1.3 Examine the data\nglimpse() function is used to examine the data that should be processed."
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#joining-data",
+    "href": "content/01_journal/01_tidyverse.html#joining-data",
+    "title": "Tidyverse Challenge",
+    "section": "1.4 Joining Data",
+    "text": "1.4 Joining Data\norderlines_tbl is left joined with bikes_tbl, on product id and bike id is equal and again it was left joined with bikeshops_tbl on customer id equal to bikeshop id. The results are put in bike_orderlines_joined_tbl."
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#wrangling-data",
+    "href": "content/01_journal/01_tidyverse.html#wrangling-data",
+    "title": "Tidyverse Challenge",
+    "section": "1.5 Wrangling Data",
+    "text": "1.5 Wrangling Data\ncolumn location is devided into two column: 1.City 2. state. total price is calculated and added to the table using mutate() function. select() function is used remove remove unnecessary columns(Ex: gender). Columns are reordered using select(). One column name is changed, other formatting name is done."
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#business-insights",
+    "href": "content/01_journal/01_tidyverse.html#business-insights",
+    "title": "Tidyverse Challenge",
+    "section": "1.6 Business Insights",
+    "text": "1.6 Business Insights\nNecessary column is selected for the insights, then grouped by state. Total price is calculated using summerize()& sum() function. Total Price data formatted into Euro.\n\nSales by state\nSales by state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by State\n\n\n\n\nSales by Year and state\nSales by year and state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by year and State"
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#writing-files",
+    "href": "content/01_journal/01_tidyverse.html#writing-files",
+    "title": "Tidyverse Challenge",
+    "section": "1.7 Writing Files",
+    "text": "1.7 Writing Files\nTo save resulted file as Excel file,CSV file,RDS : write_xlsx() is used"
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#load-libraries",
+    "href": "content/01_journal/02_data_acquisition.html#load-libraries",
+    "title": "Data Acquisition Challenge",
+    "section": "1.1 Load libraries",
+    "text": "1.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#import-files",
+    "href": "content/01_journal/02_data_acquisition.html#import-files",
+    "title": "Data Acquisition Challenge",
+    "section": "1.2 Import Files",
+    "text": "1.2 Import Files\nAPI used for the Challenge: https://api.openweathermap.org/data/2.5/onecall?lat=53.5511&lon=9.9937&appid=d93321800837c9ff4a16acd678b13513\nTo import files a funtion function(weatherUrl) created and feed to sw_api. To read the website httr::GET(weatherUrl) used. To automatically throw an error if a request did not succeed stop_for_status(resp) used\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#examine-the-data",
+    "href": "content/01_journal/02_data_acquisition.html#examine-the-data",
+    "title": "Data Acquisition Challenge",
+    "section": "1.3 Examine the data",
+    "text": "1.3 Examine the data\nmentioned resp table to see the data."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#wrangling-data",
+    "href": "content/01_journal/02_data_acquisition.html#wrangling-data",
+    "title": "Data Acquisition Challenge",
+    "section": "1.4 Wrangling Data",
+    "text": "1.4 Wrangling Data\nTo Convert to or from (Bit/Packed) Raw Vectors, function rawToChar(resp$content) is used. Content of the table resp is then transformed from JSON file into more readable table format."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#load-libraries-1",
+    "href": "content/01_journal/02_data_acquisition.html#load-libraries-1",
+    "title": "Data Acquisition Challenge",
+    "section": "2.1 Load libraries",
+    "text": "2.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#import-files-1",
+    "href": "content/01_journal/02_data_acquisition.html#import-files-1",
+    "title": "Data Acquisition Challenge",
+    "section": "2.2 Import Files",
+    "text": "2.2 Import Files\nAPI used for the Challenge: https://api.openweathermap.org/data/2.5/onecall?lat=53.5511&lon=9.9937&appid=d93321800837c9ff4a16acd678b13513\nTo import files a funtion function(weatherUrl) created and feed to sw_api. To read the website httr::GET(weatherUrl) used. To automatically throw an error if a request did not succeed stop_for_status(resp) used\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#examine-the-data-1",
+    "href": "content/01_journal/02_data_acquisition.html#examine-the-data-1",
+    "title": "Data Acquisition Challenge",
+    "section": "2.3 Examine the data",
+    "text": "2.3 Examine the data\nmentioned resp table to see the data."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#wrangling-data-1",
+    "href": "content/01_journal/02_data_acquisition.html#wrangling-data-1",
+    "title": "Data Acquisition Challenge",
+    "section": "2.4 Wrangling Data",
+    "text": "2.4 Wrangling Data\nTo Convert to or from (Bit/Packed) Raw Vectors, function rawToChar(resp$content) is used. Content of the table resp is then transformed from JSON file into more readable table format."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#load-libraries-2",
+    "href": "content/01_journal/02_data_acquisition.html#load-libraries-2",
+    "title": "Data Acquisition Challenge",
+    "section": "3.1 Load libraries",
+    "text": "3.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library rvest is used for HTML Hacking & Web Scraping. Library xopen is used for Quickly opening URLs. Library jsonlite is used for converts JSON files to R objects. Library glue is used for concatenate strings. Library stringi is used for character string/text processing"
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#import-files-2",
+    "href": "content/01_journal/02_data_acquisition.html#import-files-2",
+    "title": "Data Acquisition Challenge",
+    "section": "3.2 Import Files",
+    "text": "3.2 Import Files\n\nAPI\nAPI used for the Challenge: https://www.radon-bikes.de/\n\n\nWeb scrape the ids for the families\nTo read in the HTML for the entire webpage a funtion read_html(url_home) used. Then it is necessary to Web scrape the ids for the families. To get the nodes for the families html_nodes(css = “.megamenu__item > a”) used. To extract the information of the id attribute html_attr(‘href’) used. To Convert vector to tibble enframe(name = “position”, value = “cat_subcat_url”) is used. Then it needed to add the domain, because we will get only the subdirectories.\n\n\nModel Price\nFor loops ran to get full url link for each bike catagory, then Model price acquired.\n\n\nModel Names\nanother For loops ran to get full url link for each bike catagory, then Model names acquired.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#examine-the-data-2",
+    "href": "content/01_journal/02_data_acquisition.html#examine-the-data-2",
+    "title": "Data Acquisition Challenge",
+    "section": "3.3 Examine the data",
+    "text": "3.3 Examine the data\nmentioned final_model_names, final_price table to see the data."
+  },
+  {
+    "objectID": "content/01_journal/02_data_acquisition.html#wrangling-data-2",
+    "href": "content/01_journal/02_data_acquisition.html#wrangling-data-2",
+    "title": "Data Acquisition Challenge",
+    "section": "3.4 Wrangling Data",
+    "text": "3.4 Wrangling Data\nLeft joined final_model_names, final_price. Then Renamed and formatted following tables for better readability."
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#load-libraries",
+    "href": "content/01_journal/03_data_wrangling.html#load-libraries",
+    "title": "Data Wrangling Challenge",
+    "section": "1.1 Load libraries",
+    "text": "1.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library vroom is used to read and write rectangular text data quickly. Library magrittr is used to write the results in a excel file. Library lubridate is used to process the dates in data file properly. Library data.table is used to handle large tabular data fast."
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#import-files",
+    "href": "content/01_journal/03_data_wrangling.html#import-files",
+    "title": "Data Wrangling Challenge",
+    "section": "1.2 Import Files",
+    "text": "1.2 Import Files\nTo import files fread() funtion used. Here, reduced patent data is used. * There are 4 tables: + patent_tbl + assignee_tbl + patent_assignee_tbl + uspc_tbl\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data table in https://www.startupengineer.io/_repos/_transfer/data_science/04_dat_wra/#challenge-i-classfas-fa-laptop-codei"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#patent-dominance",
+    "href": "content/01_journal/03_data_wrangling.html#patent-dominance",
+    "title": "Data Wrangling Challenge",
+    "section": "1.3 Patent Dominance",
+    "text": "1.3 Patent Dominance\n\nUS company / corporation has the most patents\n\n\n\norganization\nPatent Numbers\n\n\n\n\nInternational Business Machines Corporation\n7547\n\n\n\n\n\nList the 10 US companies with the most assigned/granted patents\n\n\n\norganization\nPatent Numbers\n\n\n\n\nInternational Business Machines Corporation\n7547\n\n\nSamsung Electronics Co., Ltd.\n5835\n\n\nCanon Kabushiki Kaisha\n4099\n\n\nSony Corporation\n3326\n\n\nMicrosoft Corporation\n3165\n\n\nGoogle Inc.\n2668\n\n\nKabushiki Kaisha Toshiba\n2656\n\n\nQUALCOMM Incorporated\n2597\n\n\nLG Electronics Inc\n2459\n\n\nPanasonic Corporation\n2218"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#recent-patent-acitivity",
+    "href": "content/01_journal/03_data_wrangling.html#recent-patent-acitivity",
+    "title": "Data Wrangling Challenge",
+    "section": "1.4 Recent patent acitivity",
+    "text": "1.4 Recent patent acitivity\n\nUS company had the most patents granted in August 2014\n\n\n\norganization\nPatent Numbers\n\n\n\n\nInternational Business Machines Corporation\n718\n\n\n\n\n\nList the top 10 companies with the most new granted patents for August 2014.\n\n\n\norganization\nPatent Numbers\n\n\n\n\nInternational Business Machines Corporation\n718\n\n\nSamsung Electronics Co., Ltd.\n524\n\n\nCanon Kabushiki Kaisha\n361\n\n\nMicrosoft Corporation\n337\n\n\nSony Corporation\n269\n\n\nGoogle Inc.\n240\n\n\nQUALCOMM Incorporated\n223\n\n\nApple Inc.\n222\n\n\nKabushiki Kaisha Toshiba\n213\n\n\nLG Electronics Inc.\n211"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#innovation-in-tech",
+    "href": "content/01_journal/03_data_wrangling.html#innovation-in-tech",
+    "title": "Data Wrangling Challenge",
+    "section": "1.5 Innovation in Tech",
+    "text": "1.5 Innovation in Tech\n\nmost innovative tech sector\n\n\n\ntype\nPatent Numbers\n\n\n\n\n3\n411349\n\n\n\n\n\ntop 5 USPTO tech main classes\n\n\n\nmainclass_id\nPatent Numbers\n\n\n\n\n257\n2397\n\n\n438\n1742\n\n\n709\n1440\n\n\n711\n1239"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#business-insights",
+    "href": "content/01_journal/03_data_wrangling.html#business-insights",
+    "title": "Data Wrangling Challenge",
+    "section": "1.6 Business Insights",
+    "text": "1.6 Business Insights\nNecessary column is selected for the insights, then grouped by state. Total price is calculated using summerize()& sum() function. Total Price data formatted into Euro.\n\nSales by state\nSales by state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by State\n\n\n\n\nSales by Year and state\nSales by year and state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by year and State"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#writing-files",
+    "href": "content/01_journal/03_data_wrangling.html#writing-files",
+    "title": "Data Wrangling Challenge",
+    "section": "1.7 Writing Files",
+    "text": "1.7 Writing Files\nTo save resulted file as Excel file,CSV file,RDS : write_xlsx() is used"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#load-libraries",
+    "href": "content/01_journal/04_data_visualization.html#load-libraries",
+    "title": "Data Visualization Challenge",
+    "section": "1.1 Load libraries",
+    "text": "1.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library dplyr is used to handle tabular data. Library ggplot2 is used in R to create data visualizations Library ggthemes is used to provide additional themes, scales, and geoms for the ggplot2 package. Library lubridate is used to process the dates in data file properly. Library data.table is used to handle large tabular data fast. Library glue is used for concatenate strings. Library forcats is used in R to provide a suite of useful tools that solve common problems with factors. Library scales is used in R to provide the internal scaling infrastructure used by ggplot2. Library ggrepel is used in R to provide geoms for ggplot2 to repel overlapping text labels."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#import-files",
+    "href": "content/01_journal/04_data_visualization.html#import-files",
+    "title": "Data Visualization Challenge",
+    "section": "1.2 Import Files",
+    "text": "1.2 Import Files\nTo import files read_csv() funtion used.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data table in https://covid.ourworldindata.org/data/owid-covid-data.csv"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#filter-the-data",
+    "href": "content/01_journal/04_data_visualization.html#filter-the-data",
+    "title": "Data Visualization Challenge",
+    "section": "1.3 Filter the data",
+    "text": "1.3 Filter the data\nFilter the data the data: + for locations: Germany, United States, France, Spain, United States. + until May 31, 2022"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#joining-data",
+    "href": "content/01_journal/04_data_visualization.html#joining-data",
+    "title": "Data Visualization Challenge",
+    "section": "1.4 Joining Data",
+    "text": "1.4 Joining Data\norderlines_tbl is left joined with bikes_tbl, on product id and bike id is equal and again it was left joined with bikeshops_tbl on customer id equal to bikeshop id. The results are put in bike_orderlines_joined_tbl."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#wrangling-data",
+    "href": "content/01_journal/04_data_visualization.html#wrangling-data",
+    "title": "Data Visualization Challenge",
+    "section": "1.4 Wrangling Data",
+    "text": "1.4 Wrangling Data\n\nModify Data\nDate is split into year, month and dates. then Month is transformed into month names. At last, year and month is combined into a single column month_year.\n\n\nGrouping and total cases calculation\nData is grouped according to location and month_year. Then total covid case is summerized using summarise(total_case = sum(total_cases)).\nNulls are transformed into 0 to calculate cumulative sum of total cases using cumulative_case=cumsum(total_case)."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#business-insights",
+    "href": "content/01_journal/04_data_visualization.html#business-insights",
+    "title": "Data Visualization Challenge",
+    "section": "1.6 Business Insights",
+    "text": "1.6 Business Insights\nNecessary column is selected for the insights, then grouped by state. Total price is calculated using summerize()& sum() function. Total Price data formatted into Euro.\n\nSales by state\nSales by state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by State\n\n\n\n\nSales by Year and state\nSales by year and state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by year and State"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#writing-files",
+    "href": "content/01_journal/04_data_visualization.html#writing-files",
+    "title": "Data Visualization Challenge",
+    "section": "1.7 Writing Files",
+    "text": "1.7 Writing Files\nTo save resulted file as Excel file,CSV file,RDS : write_xlsx() is used"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#data-visulization",
+    "href": "content/01_journal/04_data_visualization.html#data-visulization",
+    "title": "Data Visualization Challenge",
+    "section": "1.5 DATA visulization",
+    "text": "1.5 DATA visulization\nSales by state table is visulized using ggplot(), geom_line(), Formatting and Labs. Lastly, minimal theme is used.\n\n\n\nCumulative sum of total cases"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#load-libraries-1",
+    "href": "content/01_journal/04_data_visualization.html#load-libraries-1",
+    "title": "Data Visualization Challenge",
+    "section": "2.1 Load libraries",
+    "text": "2.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library ggplot2 is used in R to create data visualizations Library ggthemes is used to provide additional themes, scales, and geoms for the ggplot2 package. Library forcats is used in R to provide a suite of useful tools that solve common problems with factors. Library scales is used in R to provide the internal scaling infrastructure used by ggplot2. Library ggrepel is used in R to provide geoms for ggplot2 to repel overlapping text labels. Library maps is used in R to generate a world map with the Latitude and Longitude data."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#import-files-1",
+    "href": "content/01_journal/04_data_visualization.html#import-files-1",
+    "title": "Data Visualization Challenge",
+    "section": "2.2 Import Files",
+    "text": "2.2 Import Files\nTo import files read_csv() funtion used.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data table in https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#wrangling-data-1",
+    "href": "content/01_journal/04_data_visualization.html#wrangling-data-1",
+    "title": "Data Visualization Challenge",
+    "section": "2.3 Wrangling Data",
+    "text": "2.3 Wrangling Data\n\nFormate the data\nFormate the data: + for locations: UK, USA, Czech Republic, Bonaire, Democratic Republic of the Congo + rename(region=countriesAndTerritories) + replace all “_”\n\n\nGrouping and mortality rate calculation\nthen group by location and calculate mortality rate by the equation (total_deaths / population)*100"
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#data-joining",
+    "href": "content/01_journal/04_data_visualization.html#data-joining",
+    "title": "Data Visualization Challenge",
+    "section": "2.4 Data joining",
+    "text": "2.4 Data joining\nleft join world and covid_data_tbl on region."
+  },
+  {
+    "objectID": "content/01_journal/04_data_visualization.html#data-visulization-1",
+    "href": "content/01_journal/04_data_visualization.html#data-visulization-1",
+    "title": "Data Visualization Challenge",
+    "section": "2.5 DATA visulization",
+    "text": "2.5 DATA visulization\nMortality Rate is visulized using ggplot(), geom_map(), expanding limits and Labs. Lastly, minimal theme is used.\n\n\n\nMortality rate Map"
   }
 ]
