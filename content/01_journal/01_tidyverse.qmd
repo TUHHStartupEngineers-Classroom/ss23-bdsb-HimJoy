@@ -11,21 +11,11 @@ This is `.qmd` file contains the Journal for the R code challange for the Tidyve
 
 To learn more about the challange visit <https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#challenge-i-classfas-fa-laptop-codei-nbsp>.
 
-# Text Formatting
-
-*italics* and **bold**
-
-superscript^2^ / subscript~2~
-
-~~strikethrough~~
-
-`verbatim code`
-
-> Blockquote
 
 # Solution
 
 Here is repository link to see the original code: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder> 
+
 **name: 1_Tidyverse_Challange.R**
 
 ## Load libraries
@@ -35,17 +25,11 @@ Library readxl is used to read the excel file.
 Library writexl is used to write the results in a excel file.
 Library lubridate is used to process the dates in data file properly.
 
-```{r}
-1 + 1
-```
 
 ## Import Files 
 
 To import files read_excel() funtion used.
 
-```{r}
-1 + 1
-```
 ::: callout-note
 files are not uploaded to repository because of large size
 :::
@@ -56,16 +40,10 @@ one can find the data tabel in <https://www.startupengineer.io/_repos/_transfer/
 
 glimpse() function is used to examine the data that should be processed.
 
-```{r}
-1 + 1
-```
 ## Joining Data
 
 orderlines_tbl is left joined with bikes_tbl, on product id and bike id is equal and again it was left joined with bikeshops_tbl on customer id equal to bikeshop id. The results are put in bike_orderlines_joined_tbl.
 
-```{r}
-1 + 1
-```
 
 ## Wrangling Data
 
@@ -75,111 +53,24 @@ select() function is used remove remove unnecessary columns(Ex: gender).
 Columns are reordered using select().
 One column name is changed, other formatting name is done.
 
-```{r}
-1 + 1
-```
 
 ## Business Insights
 
 Necessary column is selected for the insights, then grouped by state. Total price is calculated using summerize()& sum() function.
 Total Price data formatted into Euro.
 
-```{r}
-1 + 1
-```
-
 ### Sales by state
 
 Sales by state table is visulized using ggplot(), Geometrics, Formatting and Labs.
 
 ![Revenue by State](../../assets/img/Rplot_tidyverse_ch_1.1.jpeg)
+
 ### Sales by Year and state
 Sales by year and state  table is visulized using ggplot(), Geometrics, Formatting and Labs.
 
 
 ![Revenue by year and State](../../assets/img/Rplot_tidyverse_ch1.2.jpeg)
+
 ## Writing Files
-To save resulted file as Excel file:
-```{r}
-bike_orderlines_wrangled_tbl %>%
-  write_xlsx("00_data/01_bike_sales/02_wragled_data_tidy_ch/bike_orderlines.xlsx")
-```
-To save resulted file as CSV file:
-```{r}
-bike_orderlines_wrangled_tbl %>%
-  write_xlsx("00_data/01_bike_sales/02_wragled_data_tidy_ch/bike_orderlines.csv")
-```
-To save resulted file as RDS file:
-```{r}
-bike_orderlines_wrangled_tbl %>%
-  write_xlsx("00_data/01_bike_sales/02_wragled_data_tidy_ch/bike_orderlines.rds")
-```
-#### Header 4
-##### Header 5
-###### Header 6
+To save resulted file as Excel file,CSV file,RDS : write_xlsx() is used
 
-# Links & Images
-
-<https://quarto.org>
-
-[Quarto](https://quarto.org)
-
-![Caption](../../assets/img/elephant.png)
-
-[![Caption](../../assets/img/elephant.png)](https://quarto.org)
-
-[![Caption](../../assets/img/elephant.png)](https://quarto.org "An elephant")
-
-
-# Lists
-
-* unordered list
-    + sub-item 1
-    + sub-item 2
-        - sub-sub-item 1
-        
-*   item 2
-
-    Continued (indent 4 spaces)
-    
-    
-1. ordered list
-2. item 2
-    i) sub-item 1
-         A.  sub-sub-item 1
-         
-(@)  A list whose numbering
-
-continues after
-
-(@)  an interruption
-
-# Tables
-
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-
-# Source Code
-
-Use ``` to delimit blocks of source code:
-
-```
-code
-```
-
-Add a language to syntax highlight code blocks:
-
-```{r}
-1 + 1
-```
-
-```{r}
-cars
-```
-
-```{r}
-plot(cars)
-```
