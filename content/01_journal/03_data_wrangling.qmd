@@ -1,8 +1,109 @@
 ---
-title: "Data Wrangling"
-author: "Joschka Schwarz"
+title: "Data Wrangling Challenge"
+author: "Himadri Joy Bepari"
 ---
 
 ::: callout-note
-You can delete everything in here and start fresh.
+the solution code is saved on pilot/New folder in the Repository
 :::
+
+This is `.qmd` file contains the Journal for the R code challange for the Tidyverse
+
+To learn more about the challange visit <https://www.startupengineer.io/_repos/_transfer/data_science/04_dat_wra/#challenge-i-classfas-fa-laptop-codei>
+
+
+# Solution
+
+Here is repository link to see the original code: <https://github.com/TUHHStartupEngineers/ss23-bdsb-HimJoy/tree/main/pilot/New%20folder> 
+
+**name: 3_Data_Wrangling_Challenge.R**
+
+## Load libraries
+
+Library Tidyverse is used for the shaping and Warngling data properly.
+Library vroom is used to read and write rectangular text data quickly.
+Library magrittr is used to write the results in a excel file.
+Library lubridate is used to process the dates in data file properly.
+Library data.table is used to handle large tabular data fast.
+
+## Import Files 
+
+To import files fread() funtion used. Here, reduced patent data is used.
+* There are 4 tables:
+    + patent_tbl
+    + assignee_tbl
+    + patent_assignee_tbl
+    + uspc_tbl
+
+::: callout-note
+files are not uploaded to repository because of large size
+:::
+
+one can find the data table in <https://www.startupengineer.io/_repos/_transfer/data_science/04_dat_wra/#challenge-i-classfas-fa-laptop-codei>
+
+## Patent Dominance
+
+###  US company / corporation has the most patents
+
+| organization         | Patent Numbers |
+|:----------------------:|:--------------:|
+|International Business Machines Corporation|      7547     |
+
+
+### List the 10 US companies with the most assigned/granted patents
+
+| organization         | Patent Numbers |
+|:----------------------:|:--------------:|
+|International Business Machines Corporation|      7547     |
+|Samsung Electronics Co., Ltd.|      5835     |
+|Canon Kabushiki Kaisha|      4099     |
+|Sony Corporation|      3326     |
+|Microsoft Corporation|      3165     |
+|Google Inc.|      2668     |
+|Kabushiki Kaisha Toshiba|      2656     |
+|QUALCOMM Incorporated|      2597     |
+|LG Electronics Inc|      2459     |
+|Panasonic Corporation|      2218     |
+
+
+## Recent patent acitivity
+
+### US company had the most patents granted in August 2014
+
+| organization         | Patent Numbers |
+|:----------------------:|:--------------:|
+|International Business Machines Corporation|      718     |
+
+### List the top 10 companies with the most new granted patents for August 2014.
+
+| organization         | Patent Numbers |
+|:----------------------:|:--------------:|
+|International Business Machines Corporation|      718     |
+|Samsung Electronics Co., Ltd.|      524     |
+|Canon Kabushiki Kaisha|      361     |
+|Microsoft Corporation|      337     |
+|Sony Corporation|      269     |
+|Google Inc.|      240     |
+|QUALCOMM Incorporated|      223     |
+|Apple Inc.|      222     |
+|Kabushiki Kaisha Toshiba|      213     |
+|LG Electronics Inc.|      211     |
+
+## Innovation in Tech
+
+### most innovative tech sector
+
+| type         | Patent Numbers |
+|:------------:|:--------------:|
+|  3           |     411349     |
+
+
+### top 5 USPTO tech main classes
+
+| mainclass_id         | Patent Numbers |
+|:----------------------:|:--------------:|
+|257 |      2397     |
+|438 |      1742     |
+|709 |      1440     |
+|711 |      1239     |
+
