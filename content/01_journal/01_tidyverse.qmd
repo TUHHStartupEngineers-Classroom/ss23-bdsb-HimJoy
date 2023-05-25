@@ -1,5 +1,5 @@
 ---
-title: "Tidyverse Challange"
+title: "Tidyverse Challenge"
 author: "Himadri Joy Bepari"
 ---
 
@@ -34,7 +34,7 @@ To import files read_excel() funtion used.
 files are not uploaded to repository because of large size
 :::
 
-one can find the data tabel in <https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#business-case-i-classfas-fa-user-tiei-nbsp>
+one can find the data table in <https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#business-case-i-classfas-fa-user-tiei-nbsp>
 
 ## Examine the data
 

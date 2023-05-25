@@ -7,7 +7,7 @@ author: "Himadri Joy Bepari"
 the solution code is saved on pilot/New folder in the Repository
 :::
 
-This is `.qmd` file contains the Journal for the R code challange for the Tidyverse
+This is `.qmd` file contains the Journal for the R code challange for the Data Wrangling.
 
 To learn more about the challange visit <https://www.startupengineer.io/_repos/_transfer/data_science/04_dat_wra/#challenge-i-classfas-fa-laptop-codei>
 
