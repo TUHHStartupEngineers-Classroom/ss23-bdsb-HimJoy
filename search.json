@@ -23,7 +23,7 @@
   {
     "objectID": "content/01_journal/01_tidyverse.html",
     "href": "content/01_journal/01_tidyverse.html",
-    "title": "Tidyverse Challange",
+    "title": "Tidyverse Challenge",
     "section": "",
     "text": "Note\n\n\n\nthe solution code is saved on pilot/New folder in the Repository\nThis is .qmd file contains the Journal for the R code challange for the Tidyverse\nTo learn more about the challange visit https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#challenge-i-classfas-fa-laptop-codei-nbsp."
   },
@@ -65,49 +65,49 @@
   {
     "objectID": "content/01_journal/01_tidyverse.html#load-libraries",
     "href": "content/01_journal/01_tidyverse.html#load-libraries",
-    "title": "Tidyverse Challange",
+    "title": "Tidyverse Challenge",
     "section": "1.1 Load libraries",
     "text": "1.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library readxl is used to read the excel file. Library writexl is used to write the results in a excel file. Library lubridate is used to process the dates in data file properly."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#import-files",
     "href": "content/01_journal/01_tidyverse.html#import-files",
-    "title": "Tidyverse Challange",
+    "title": "Tidyverse Challenge",
     "section": "1.2 Import Files",
-    "text": "1.2 Import Files\nTo import files read_excel() funtion used.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data tabel in https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#business-case-i-classfas-fa-user-tiei-nbsp"
+    "text": "1.2 Import Files\nTo import files read_excel() funtion used.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data table in https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#business-case-i-classfas-fa-user-tiei-nbsp"
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#examine-the-data",
     "href": "content/01_journal/01_tidyverse.html#examine-the-data",
-    "title": "Tidyverse Challange",
+    "title": "Tidyverse Challenge",
     "section": "1.3 Examine the data",
     "text": "1.3 Examine the data\nglimpse() function is used to examine the data that should be processed."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#joining-data",
     "href": "content/01_journal/01_tidyverse.html#joining-data",
-    "title": "Tidyverse Challange",
+    "title": "Tidyverse Challenge",
     "section": "1.4 Joining Data",
     "text": "1.4 Joining Data\norderlines_tbl is left joined with bikes_tbl, on product id and bike id is equal and again it was left joined with bikeshops_tbl on customer id equal to bikeshop id. The results are put in bike_orderlines_joined_tbl."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#wrangling-data",
     "href": "content/01_journal/01_tidyverse.html#wrangling-data",
-    "title": "Tidyverse Challange",
+    "title": "Tidyverse Challenge",
     "section": "1.5 Wrangling Data",
     "text": "1.5 Wrangling Data\ncolumn location is devided into two column: 1.City 2. state. total price is calculated and added to the table using mutate() function. select() function is used remove remove unnecessary columns(Ex: gender). Columns are reordered using select(). One column name is changed, other formatting name is done."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#business-insights",
     "href": "content/01_journal/01_tidyverse.html#business-insights",
-    "title": "Tidyverse Challange",
+    "title": "Tidyverse Challenge",
     "section": "1.6 Business Insights",
     "text": "1.6 Business Insights\nNecessary column is selected for the insights, then grouped by state. Total price is calculated using summerize()& sum() function. Total Price data formatted into Euro.\n\nSales by state\nSales by state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by State\n\n\n\n\nSales by Year and state\nSales by year and state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by year and State"
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#writing-files",
     "href": "content/01_journal/01_tidyverse.html#writing-files",
-    "title": "Tidyverse Challange",
+    "title": "Tidyverse Challenge",
     "section": "1.7 Writing Files",
     "text": "1.7 Writing Files\nTo save resulted file as Excel file,CSV file,RDS : write_xlsx() is used"
   },
