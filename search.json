@@ -23,14 +23,14 @@
   {
     "objectID": "content/01_journal/01_tidyverse.html",
     "href": "content/01_journal/01_tidyverse.html",
-    "title": "Tidyverse",
+    "title": "Tidyverse Challange",
     "section": "",
-    "text": "Note\n\n\n\nYou can delete everything in here and start fresh.\nThis is a .qmd file. It is plain text with special features. Any time you write just like this, it will be compiled to normal text in the website. If you put a # in front of your text, it will create a top level-header.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Note\n\n\n\nthe solution code is saved on pilot/New folder in the Repository\nThis is .qmd file contains the Journal for the R code challange for the Tidyverse\nTo learn more about the challange visit https://www.startupengineer.io/_repos/_transfer/data_science/02_intro_tv/#challenge-i-classfas-fa-laptop-codei-nbsp."
   },
   {
     "objectID": "content/01_journal/01_tidyverse.html#header-2",
     "href": "content/01_journal/01_tidyverse.html#header-2",
-    "title": "Tidyverse",
+    "title": "Tidyverse Challange",
     "section": "\n2.1 Header 2",
     "text": "2.1 Header 2\nHeader 3\nHeader 4\nHeader 5\nHeader 6"
   },
@@ -61,5 +61,19 @@
     "title": "My Lab Journal",
     "section": "How to use",
     "text": "How to use\n\nAccept the assignment and get your own github repo.\nBlog/journal what you are doing in R, by editing the .qmd files.\nSee the links page for lots of helpful links on learning R.\nChange everything to make it your own.\nMake sure to render you website everytime before you want to upload changes"
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#load-libraries",
+    "href": "content/01_journal/01_tidyverse.html#load-libraries",
+    "title": "Tidyverse Challange",
+    "section": "\n2.1 Load libraries",
+    "text": "2.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library readxl is used to read the excel file. Library writexl is used to write the results in a excel file. Library lubridate is used to process the dates in data file properly"
+  },
+  {
+    "objectID": "content/01_journal/01_tidyverse.html#import-files",
+    "href": "content/01_journal/01_tidyverse.html#import-files",
+    "title": "Tidyverse Challange",
+    "section": "\n2.2 Import Files",
+    "text": "2.2 Import Files\nTo import files read_excel() funtion used.\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\nHeader 3\nHeader 4\nHeader 5\nHeader 6"
   }
 ]
