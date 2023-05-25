@@ -9,9 +9,9 @@
   {
     "objectID": "content/01_journal/03_data_wrangling.html",
     "href": "content/01_journal/03_data_wrangling.html",
-    "title": "Data Wrangling",
+    "title": "Data Wrangling Challenge",
     "section": "",
-    "text": "Note\n\n\n\nYou can delete everything in here and start fresh."
+    "text": "Note\n\n\n\nthe solution code is saved on pilot/New folder in the Repository\nThis is .qmd file contains the Journal for the R code challange for the Tidyverse\nTo learn more about the challange visit https://www.startupengineer.io/_repos/_transfer/data_science/04_dat_wra/#challenge-i-classfas-fa-laptop-codei"
   },
   {
     "objectID": "content/01_journal/04_data_visualization.html",
@@ -194,5 +194,54 @@
     "title": "Data Acquisition Challenge",
     "section": "3.4 Wrangling Data",
     "text": "3.4 Wrangling Data\nLeft joined final_model_names, final_price. Then Renamed and formatted following tables for better readability."
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#load-libraries",
+    "href": "content/01_journal/03_data_wrangling.html#load-libraries",
+    "title": "Data Wrangling Challenge",
+    "section": "1.1 Load libraries",
+    "text": "1.1 Load libraries\nLibrary Tidyverse is used for the shaping and Warngling data properly. Library vroom is used to read and write rectangular text data quickly. Library magrittr is used to write the results in a excel file. Library lubridate is used to process the dates in data file properly. Library data.table is used to handle large tabular data fast."
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#import-files",
+    "href": "content/01_journal/03_data_wrangling.html#import-files",
+    "title": "Data Wrangling Challenge",
+    "section": "1.2 Import Files",
+    "text": "1.2 Import Files\nTo import files fread() funtion used. Here, reduced patent data is used. * There are 4 tables: + patent_tbl + assignee_tbl + patent_assignee_tbl + uspc_tbl\n\n\n\n\n\n\nNote\n\n\n\nfiles are not uploaded to repository because of large size\n\n\none can find the data table in https://www.startupengineer.io/_repos/_transfer/data_science/04_dat_wra/#challenge-i-classfas-fa-laptop-codei"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#patent-dominance",
+    "href": "content/01_journal/03_data_wrangling.html#patent-dominance",
+    "title": "Data Wrangling Challenge",
+    "section": "1.3 Patent Dominance",
+    "text": "1.3 Patent Dominance\n\nUS company / corporation has the most patents\n\n\n\norganization\nPatent Numbers\n\n\n\n\nInternational Business Machines Corporation\n7547\n\n\n\n\n\nList the 10 US companies with the most assigned/granted patents\n\n\n\norganization\nPatent Numbers\n\n\n\n\nInternational Business Machines Corporation\n7547\n\n\nSamsung Electronics Co., Ltd.\n5835\n\n\nCanon Kabushiki Kaisha\n4099\n\n\nSony Corporation\n3326\n\n\nMicrosoft Corporation\n3165\n\n\nGoogle Inc.\n2668\n\n\nKabushiki Kaisha Toshiba\n2656\n\n\nQUALCOMM Incorporated\n2597\n\n\nLG Electronics Inc\n2459\n\n\nPanasonic Corporation\n2218"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#recent-patent-acitivity",
+    "href": "content/01_journal/03_data_wrangling.html#recent-patent-acitivity",
+    "title": "Data Wrangling Challenge",
+    "section": "1.4 Recent patent acitivity",
+    "text": "1.4 Recent patent acitivity\n\nUS company had the most patents granted in August 2014\n\n\n\norganization\nPatent Numbers\n\n\n\n\nInternational Business Machines Corporation\n718\n\n\n\n\n\nList the top 10 companies with the most new granted patents for August 2014.\n\n\n\norganization\nPatent Numbers\n\n\n\n\nInternational Business Machines Corporation\n718\n\n\nSamsung Electronics Co., Ltd.\n524\n\n\nCanon Kabushiki Kaisha\n361\n\n\nMicrosoft Corporation\n337\n\n\nSony Corporation\n269\n\n\nGoogle Inc.\n240\n\n\nQUALCOMM Incorporated\n223\n\n\nApple Inc.\n222\n\n\nKabushiki Kaisha Toshiba\n213\n\n\nLG Electronics Inc.\n211"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#innovation-in-tech",
+    "href": "content/01_journal/03_data_wrangling.html#innovation-in-tech",
+    "title": "Data Wrangling Challenge",
+    "section": "1.5 Innovation in Tech",
+    "text": "1.5 Innovation in Tech\n\nmost innovative tech sector\n\n\n\ntype\nPatent Numbers\n\n\n\n\n3\n411349\n\n\n\n\n\ntop 5 USPTO tech main classes\n\n\n\nmainclass_id\nPatent Numbers\n\n\n\n\n257\n2397\n\n\n438\n1742\n\n\n709\n1440\n\n\n711\n1239"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#business-insights",
+    "href": "content/01_journal/03_data_wrangling.html#business-insights",
+    "title": "Data Wrangling Challenge",
+    "section": "1.6 Business Insights",
+    "text": "1.6 Business Insights\nNecessary column is selected for the insights, then grouped by state. Total price is calculated using summerize()& sum() function. Total Price data formatted into Euro.\n\nSales by state\nSales by state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by State\n\n\n\n\nSales by Year and state\nSales by year and state table is visulized using ggplot(), Geometrics, Formatting and Labs.\n\n\n\nRevenue by year and State"
+  },
+  {
+    "objectID": "content/01_journal/03_data_wrangling.html#writing-files",
+    "href": "content/01_journal/03_data_wrangling.html#writing-files",
+    "title": "Data Wrangling Challenge",
+    "section": "1.7 Writing Files",
+    "text": "1.7 Writing Files\nTo save resulted file as Excel file,CSV file,RDS : write_xlsx() is used"
   }
 ]
